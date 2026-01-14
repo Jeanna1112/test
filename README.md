@@ -1,4 +1,5 @@
 # 我的第一個 Mermaid 圖
+```mermaid
 flowchart LR
 
 subgraph 客戶端
@@ -13,3 +14,4 @@ subgraph 營業單位
 end
 
 A --> B --> C
+```
