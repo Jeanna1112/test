@@ -9,7 +9,7 @@ end
 
 subgraph 營業單位
   direction TB
-  B[資料輸入]
+  B([資料輸入])
   C[送出]
 end
 
