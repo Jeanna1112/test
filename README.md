@@ -1,6 +1,6 @@
 # 我的第一個 Mermaid 圖
 ```mermaid
-flowchart LR
+flowchart TD
 
 subgraph 客戶端
   direction TB
