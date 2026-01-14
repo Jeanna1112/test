@@ -1,7 +1,15 @@
 # 我的第一個 Mermaid 圖
-```mermaid
-graph TD
-    A[開始] --> B{學會 GitHub}
-    B --> C[學會 Mermaid]
-    C --> D[完成 🎉]
-```
+flowchart LR
+
+subgraph 客戶端
+  direction TB
+  A[開始]
+end
+
+subgraph 營業單位
+  direction TB
+  B[資料輸入]
+  C[送出]
+end
+
+A --> B --> C
